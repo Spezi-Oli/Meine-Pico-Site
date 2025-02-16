@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align:center;
+    margin: 20px;
+    background-color: #202e39;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+}
+table {
+    width: 100%;
+    margin: 32px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid whit; /* Rand tabelle*/
+    padding: 10px;
+    text-align: center;
+    min-width: 100px;
+    border-radius: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #364a5a;
+}
+
+tr:nth-child(odd){
+    background-color: royalblue;
+}
+.buttonleeren {
+    margin-top: 32px;
+    font-size: 32px;
+    cursor: pointer;
+    background-color: royalblue;
+    border-radius: 20px;
+    border: none;
+}
+
+h2 {
+    margin-top: 32px;
+    font-size: 32px;
+    cursor:calc()
+}
+   
