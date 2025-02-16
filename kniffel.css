@@ -39,6 +39,7 @@ tr:nth-child(even) {
 tr:nth-child(odd){
     background-color: royalblue;
 }
+
 button {
     margin-top: 32px;
     font-size: 32px;
